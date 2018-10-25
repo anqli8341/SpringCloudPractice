@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: zone1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

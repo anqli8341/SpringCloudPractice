@@ -9,6 +9,7 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="spring-cloud-config-server" />
+        <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
   </component>

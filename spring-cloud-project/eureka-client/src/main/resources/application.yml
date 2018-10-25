@@ -1,8 +1,18 @@
-eureka:
-  client:
-    eureka-service-url-poll-interval-seconds: 10
-    register-with-eureka: false
-    fetch-registry: false
+#eureka:
+#  client:
+#    eureka-service-url-poll-interval-seconds: 10
+#    register-with-eureka: false
+#    fetch-registry: false
 #    eureka-service-url-poll-interval-seconds: 10 #默认为300秒，这里为了验证改为10秒
 server:
   port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  profiles:
+    active:  zone2
