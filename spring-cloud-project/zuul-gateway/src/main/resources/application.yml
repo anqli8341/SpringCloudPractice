@@ -1,6 +1,8 @@
 spring:
   profiles:
     active: zone1
+  application:
+    name: zuul-gateway
 
 management:
   endpoints:

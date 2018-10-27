@@ -15,4 +15,4 @@ management:
 
 spring:
   profiles:
-    active:  zone2
+    active:  zone4

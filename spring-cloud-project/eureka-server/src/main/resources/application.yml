@@ -7,4 +7,4 @@
 
 spring:
   profiles:
-    active: zone2b
+    active: zone4-region-west
