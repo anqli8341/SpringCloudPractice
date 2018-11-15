@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/query")
 public class QueryController {
-  @Autowired
-  EurekaClientConfigBean eurekaClientConfigBean;
-
-  @GetMapping("/eureka-server")
-  public Object getEurekaServerUrl(){
-    return eurekaClientConfigBean.getServiceUrl();
-  }
+//  @Autowired
+//  EurekaClientConfigBean eurekaClientConfigBean;
+//
+//  @GetMapping("/eureka-server")
+//  public Object getEurekaServerUrl(){
+//    return eurekaClientConfigBean.getServiceUrl();
+//  }
 }

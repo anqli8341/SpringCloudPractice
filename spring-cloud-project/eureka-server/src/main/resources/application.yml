@@ -5,6 +5,10 @@
 #server:
 #  port: 8763
 
+#spring:
+##  profiles:
+##    active: zone4-region-west
+
 spring:
   profiles:
-    active: zone4-region-west
+    active: security

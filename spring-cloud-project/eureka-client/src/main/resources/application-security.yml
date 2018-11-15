@@ -1,0 +1,16 @@
+server:
+  port: 9091
+spring:
+  application:
+    name:  eureka-client
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    security:
+      basic:
+        user: admin
+        password: admin
+    serviceUrl:
+      defaultZone: http://${eureka.client.security.basic.user}:${eureka.client.security.basic.password}@localhost:8090/eureka/
